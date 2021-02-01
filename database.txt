@@ -1,0 +1,16 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+CREATE TABLE students(
+	id int NOT NULL,
+	name varchar(30) NOT NULL,
+	email varchar(20) NULL,
+	country varchar(30) NULL,
+	state varchar(20) NULL,
+	city varchar(30) NULL,
+	zip int NULL,
+	password varchar(30) NULL,
+    PRIMARY KEY(id)
+);
+
+SELECT * from students;
+
+Insert into students values(1906017,'Mohan','vsm@gmail.com','US','TX','Houston',77000,'Mohan');

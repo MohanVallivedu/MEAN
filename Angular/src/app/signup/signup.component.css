@@ -1,0 +1,65 @@
+.box{
+    border: solid 1px black;
+    height: auto;
+    width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 50px;
+    position: relative;
+  }
+
+  #lblSignup{
+    font-weight: 600;
+    font-size: large;
+    display: table;
+    margin:0 auto;
+    margin-top: 15px;
+  }
+  
+  .center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #btnSignup{
+    border: 1px solid black;
+    border-radius: 8px;
+    text-align: center;
+    width: 70px;
+    margin: auto;
+    padding: 0.9%;
+    margin-top: 30px;
+    background-color: #5cb0e0;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: 650;
+  }
+  #btnSignup:hover{
+    cursor: pointer;
+  }
+
+  .bord{
+    border: 1px solid black;
+  }
+
+  .signup label{
+    display: block;
+    margin-left: 40px;
+    margin-top:25px;
+    font-size: 1.4em;
+  }
+
+  .signup input{
+    margin-top:25px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .tb{
+      margin: 0 auto !important;
+    }  
+    .smallTag{
+      display: block;
+      text-align: center;
+    }
+  }
